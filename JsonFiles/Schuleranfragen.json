@@ -1,0 +1,18 @@
+
+[
+    {
+        "id": "1",
+        "studentName": "Shreshtha Singh",
+        "classType": "Klasse B"
+    },
+    {
+        "id": "2",
+        "studentName": "Alvarez Acid Gonzales",
+        "classType": "Klasse A"
+    },
+    {
+        "id": "3",
+        "studentName": "Jordy Jamesson",
+        "classType": "Auffrischungskurs"
+    }
+]

@@ -1,0 +1,38 @@
+
+[
+    {
+        "id": "1",
+        "name1": "Achsel",
+        "name2": "Peter",
+        "time": "12:00 Uhr",
+        "tripType": "Uberlandfahrt"
+    },
+    {
+        "id": "2",
+        "name1": "Peter",
+        "name2": "Silie",
+        "time": "11:00 Uhr",
+        "tripType": "Basisubungsstunde"
+    },
+    {
+        "id": "3",
+        "name1": "Rick",
+        "name2": "Morty",
+        "time": "09:00 Uhr",
+        "tripType": "Uberlandfahrt"
+    },
+    {
+        "id": "4",
+        "name1": "Rick",
+        "name2": "Morty",
+        "time": "09:00 Uhr",
+        "tripType": "Uberlandfahrt"
+    },
+    {
+        "id": "5",
+        "name1": "Rick",
+        "name2": "Morty",
+        "time": "09:00 Uhr",
+        "tripType": "Uberlandfahrt"
+    }
+]

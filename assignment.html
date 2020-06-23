@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+      .details-item {
+        display: block;
+      }
+
+      .location-item::before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content:"\e146";
+      }
+
+      .phone-item::before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content:"\e182";
+      }
+
+      .person-item::before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content:"\e008";
+      }
+
+      .email-item::before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content:"\2709";
+      }
+
+      .website-item::before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content:"\e021";
+      }
+    </style>
+
+    <title>Assignment</title>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">driveddy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produkte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kalender</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Schuler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kollegen</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <br>
+    <br>
+    <!-- <h2>Dashboard</h2> -->
+    <div class="container">
+      <h2>Dashboard</h2>
+      <div class="row1">
+        <div class="container-sm border border border-danger">
+          <div class="row no-gutters">
+            <h5 class="car-title">Ubersicht deiner Fahrschulen</h5>
+            <p class="car-text" id="detailsDescription"></p>
+            <div class="col-md-4">
+              <img src="car.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title" id="detailsTitle"></h5>
+                <ul class="list-group list-group-flush">
+                  <li class="location-item details-item" id="location"></li>
+                  <li class="phone-item details-item" id="phone"></li>
+                  <li class="person-item details-item" id="owner"></li>
+                  <li class="email-item details-item" id="email"></li>
+                  <li class="website-item details-item" id="website"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--second row -->
+      <div class="row2">
+        <div class="container-sm border border border-danger">
+          <h3>Verbessere dein Profil</h3>
+
+          <div class="card-deck">
+            <div class="card" style="margin: 15px;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+
+            <div class="card" style="margin: 15px;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+
+            <div class="card" style="margin: 15px;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--third row-->
+
+      <div class="card-group">
+
+        <div class="card" style="border-color: red;">
+          <div class="card-body">
+            <h5 class="card-title">Stundenanfragen</h5>
+            <div class="card">
+              <ul class="list-group list-group-flush" id="thirdBox">
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="border-color: red">
+          <div class="card-body">
+            <h5 class="card-title">Schuleranfragen</h5>
+            <div class="card">
+              <ul class="list-group list-group-flush" id="fourthBox">
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!--fourth row-->
+
+      <div class="card-group">
+
+        <div class="card" style="border-color: red;">
+          <div class="card-body">
+            <h5 class="card-title">Kalender</h5>
+            <div class="card">
+              <ul class="list-group list-group-flush" id="fifthBox">
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="border-color: red">
+          <div class="card-body">
+            <h5 class="card-title">Schulerfortschritt</h5>
+            <div class="card">
+              <ul class="list-group list-group-flush" id="sixthBox">
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- </div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="Constants.js"></script>
+    <script type="text/javascript" src="Details.js"></script>
+    <script type="text/javascript" src="ThirdBox.js"></script>
+    <script type="text/javascript" src="FourthBox.js"></script>
+    <script type="text/javascript" src="FifthBox.js"></script>
+
+  </body>
+</html>
